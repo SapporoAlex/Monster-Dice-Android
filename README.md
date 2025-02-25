@@ -11,3 +11,14 @@ When buttons are pressed, the attack and damage rolls are calculated along with 
 While a lot of fun can be had with real physical dice, this app is an option for those that feel overwhelmed with the many specific details of each monster's attacks, or those who sometimes need to DM from a lawn chair drinking whisky.
 
 ## Where can I get the app?
+
+1. Download the APK from GoogleDrive
+   https://drive.google.com/file/d/1KUsHKzLrlHT3JYOUZQrEg2GAE2OFsPf0/view?usp=sharing
+
+2. Enable Installation from Unknown Sources
+Before installing, you need to allow APK installation:
+
+Go to Settings > Security.
+Find “Install unknown apps” (or “Allow unknown sources”).
+Enable it for the file manager or browser they’re using.
+Open the APK file, click Install, and enjoy! 

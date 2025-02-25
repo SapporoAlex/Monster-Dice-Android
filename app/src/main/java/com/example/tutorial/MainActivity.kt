@@ -126,25 +126,25 @@ class MainActivity : AppCompatActivity() {
                 crit = true
             }
             attackRoll += 5
-            var damage = 2
-            var damageRoll = rollDice(1, 6)
-            var poisonDamage = 2
-            var poisonDamageRoll = rollDice(1, 6)
+            val damageRoll = rollDice(1, 10)
+            val secondDamageRoll = rollDice(1, 10)
+
+            val poisonDamageRoll = rollDice(1, 6)
+            val secondPoisonDamageRoll = rollDice(1, 6)
+            var damageRollTotal = damageRoll + secondDamageRoll + 3
             if (crit) {
-                damageRoll *= 2
-                poisonDamageRoll *= 2
+                damageRollTotal *= 2
             }
-            damage += damageRoll
-            poisonDamage += poisonDamageRoll
+            var poisonDamageTotal = poisonDamageRoll + secondPoisonDamageRoll
             if (crit) {
                 showMessage(
-                    "The basilisk chomps down for $attackRoll attack \uD83D\uDCA5Nat20\uD83D\uDCA5, and deals $damage damage, and $poisonDamage poison damage.",
+                    "The basilisk chomps down for $attackRoll attack \uD83D\uDCA5Nat20\uD83D\uDCA5, and deals $damageRollTotal damage, and $poisonDamageTotal poison damage.",
                     messageOverlay,
                     messageText
                 )
             } else {
                 showMessage(
-                    "The basilisk bites for $attackRoll attack and deals $damage damage, and $poisonDamage poison damage.",
+                    "The basilisk bites for $attackRoll attack and deals $damageRollTotal damage, and $poisonDamageTotal poison damage.",
                     messageOverlay,
                     messageText
                 )
@@ -334,7 +334,7 @@ class MainActivity : AppCompatActivity() {
                     "The knight swings the greatsword for $attackRoll attack, and deals $damage damage, then gracefully follows up with a perfectly aimed swing for $secondAttackRoll attack \uD83D\uDCA5Nat20\uD83D\uDCA5, and $secondDamage damage!"
 
                 else ->
-                    "The owlbear attacks with beak for $attackRoll attack and deals $damage damage, then attacks with claws for $secondAttackRoll attack and $secondDamage damage!"
+                    "The knight attacks with greatsword for $attackRoll attack and deals $damage damage, then attacks again for $secondAttackRoll attack and $secondDamage damage!"
             }
             showMessage(message, messageOverlay, messageText)
         }

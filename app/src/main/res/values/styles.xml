@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Row Style: Each row should be horizontal, centered, and spaced -->
+    <style name="RowStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!-- Button Container: Holds multiple buttons in a row -->
+    <style name="ButtonContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <!-- Button Style: Applies consistent styling to all buttons -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">170px</item>
+        <item name="android:layout_height">170px</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item> <!-- Uses primary color -->
+        <item name="android:textColor">@color/colorAccent</item> <!-- Yellow text -->
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>

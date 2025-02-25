@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Monster Dice</string>
+    <string name="melee">⚔️</string>
+    <string name="ranged">🏹</string>
+    <string name="claws">🐾</string>
+    <string name="bite">👄</string>
+    <string name="twoHanded">⚔️⚔️</string>
+    <string name="crush">👣</string>
+</resources>

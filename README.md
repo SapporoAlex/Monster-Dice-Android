@@ -19,6 +19,7 @@ Before installing, you need to allow APK installation:
 
 2. Download the APK from GoogleDrive
    https://drive.google.com/file/d/1KUsHKzLrlHT3JYOUZQrEg2GAE2OFsPf0/view?usp=sharing
+
    Clicking this above link should start the download process.
 
 Click Install, and enjoy! 

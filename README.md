@@ -12,13 +12,13 @@ While a lot of fun can be had with real physical dice, this app is an option for
 
 ## Where can I get the app?
 
-1. Download the APK from GoogleDrive
-   https://drive.google.com/file/d/1KUsHKzLrlHT3JYOUZQrEg2GAE2OFsPf0/view?usp=sharing
-
-2. Enable Installation from Unknown Sources
+1. Enable Installation from Unknown Sources
 Before installing, you need to allow APK installation:
+   Go to Settings > Security.
+   Find and enable it with “Install unknown apps”, “Allow unknown sources” or switching enable on for "Drive" as this is where it is.
 
-Go to Settings > Security.
-Find “Install unknown apps” (or “Allow unknown sources”).
-Enable it for the file manager or browser they’re using.
-Open the APK file, click Install, and enjoy! 
+2. Download the APK from GoogleDrive
+   https://drive.google.com/file/d/1KUsHKzLrlHT3JYOUZQrEg2GAE2OFsPf0/view?usp=sharing
+   Clicking this above link should start the download process.
+
+Click Install, and enjoy! 
